@@ -214,7 +214,8 @@ KEYWORDS = [
     (r"借地権|地上権|定期借地", "leasehold"),
     (r"建物未登記|母屋未登記|未登記の建物|建物は未登記|建物（未登記）|主屋未登記", "unregistered_building"),
     (r"未登記", "unregistered_part"),
-    (r"管理費|管理規約|別荘地|管理組合|自治会費|環境整備費", "kanri"), (r"民泊不可", "no_minpaku"),
+    (r"管理費|管理規約|別荘地|管理組合|自治会|環境整備費|集中浄化槽|集中プロパン", "kanri"), (r"民泊不可", "no_minpaku"),
+    (r"砂防指定|砂防法|急傾斜地崩壊危険区域|宅地造成工事規制区域", "sabo"),
     (r"民泊可|旅館業", "minpaku_ok"), (r"市街化調整区域|調整区域", "urbanization_control"),
     (r"浄化槽", "septic"), (r"下水", "sewer"), (r"井戸", "well"),
     (r"告知事項", "disclosure"), (r"事故物件|心理的瑕疵", "stigmatized"),
@@ -293,7 +294,7 @@ def compute(entry, commune):
         flags.append("bus")
     if commune["tag"] == "suburb":
         flags.append("suburb")
-    for k in ("yellow_zone", "flood_zone", "kanri", "urbanization_control", "art43", "stigmatized", "unregistered_part", "damage"):
+    for k in ("yellow_zone", "flood_zone", "kanri", "urbanization_control", "art43", "stigmatized", "unregistered_part", "damage", "sabo"):
         if k in kws:
             flags.append(k)
     m = re.search(r"徒歩\s*(\d[\d,]*)\s*ｍ", acc) or re.search(r"徒歩\s*(\d[\d,]*)\s*m", acc)
@@ -305,7 +306,7 @@ def compute(entry, commune):
     entry["year_built"] = y
     entry["flags"] = flags
     entry["kill"] = kill
-    hard = [f for f in flags if f in ("pre1981", "bus", "yellow_zone", "flood_zone", "urbanization_control", "art43", "stigmatized", "unregistered_part", "damage")]
+    hard = [f for f in flags if f in ("pre1981", "bus", "yellow_zone", "flood_zone", "urbanization_control", "art43", "stigmatized", "unregistered_part", "damage", "sabo")]
     if kill:
         entry["tier"] = 0
     elif commune["tag"] == "suburb":

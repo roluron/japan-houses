@@ -24,7 +24,7 @@ The desk (Grok task "Japan Houses", 07:00 JST) reads these raw URLs:
 | `price_history` | `[{date, price_yen}]`, one entry per change |
 | `status` | `new` (first seen today) · `active` · `back` (reappeared) · `gone` (missing today) · `dead` (KILL flag) |
 | `tier` | 1 = nature commune, no hard flag · 2 = hard flag (bus / pre-1981 / yellow zone / flood / 調整区域 / unregistered part / damage) · 3 = suburb commune · 0 = KILL |
-| `flags` | `pre1981`, `bus`, `suburb`, `yellow_zone`, `flood_zone`, `kanri` (管理費 / 別荘地 / 自治会費), `urbanization_control`, `art43`, `stigmatized`, `unregistered_part` (未登記 extension or outbuilding), `damage` (雨漏り / シロアリ / 傾き) |
+| `flags` | `pre1981`, `bus`, `suburb`, `yellow_zone`, `flood_zone`, `kanri` (管理費 / 別荘地 / 自治会費), `urbanization_control`, `art43`, `stigmatized`, `unregistered_part` (未登記 extension or outbuilding), `damage` (雨漏り / シロアリ / 傾き), `sabo` (砂防指定地 / 急傾斜地 / 宅地造成工事規制区域) |
 | `kill` | `land_right:…` (not 所有権), `leasehold`, `no_rebuild`, `red_zone`, `unregistered_building` (the house itself is 未登記) |
 | `keywords` | everything matched in the listing's own text (備考, agency comment, 設備, 都市計画…), informational ones included: `septic`, `sewer`, `well`, `no_minpaku`, `minpaku_ok`, `designated_road`, `akiya_bank`, `disclosure` |
 | `ownership` `city_planning` `zoning` `road` `utilities` `remarks` `agency_comment` | copied from the fiche (土地権利 / 都市計画 / 用途地域 / 接道状況 / 設備 / 備考 / 担当コメント) |
