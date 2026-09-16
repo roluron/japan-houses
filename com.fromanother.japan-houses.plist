@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.fromanother.japan-houses</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/robinmahieux/japan-houses/run_mac.sh</string>
+  </array>
+  <!-- 04:30 Asia/Ho_Chi_Minh = 06:30 JST. Grok desk reads at 07:00 JST. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>4</integer>
+    <key>Minute</key>
+    <integer>30</integer>
+  </dict>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>/Users/robinmahieux/Library/Logs/japan-houses.launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/robinmahieux/Library/Logs/japan-houses.launchd.log</string>
+</dict>
+</plist>
