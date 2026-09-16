@@ -205,7 +205,37 @@ LABELS = {
     "国土法届出": "kokudo", "セットバック": "setback", "引渡可能時期": "handover",
     "リフォーム履歴 【水回り】": "reform_water", "リフォーム履歴 【内装】": "reform_interior",
     "リフォーム履歴 【外装】": "reform_exterior", "瑕疵保険": "defect_insurance",
+    "維持費等": "maintenance", "借地期間・地代 （月額）": "leasehold_terms", "権利金": "key_money",
 }
+
+KEYWORDS = [
+    (r"土砂災害特別警戒区域|レッドゾーン", "red_zone"), (r"土砂災害警戒区域|イエローゾーン", "yellow_zone"),
+    (r"浸水想定|浸水区域", "flood_zone"), (r"再建築不可|再建築が?できません|再建築は?不可|再建築は?出来ません", "no_rebuild"),
+    (r"借地権|地上権|定期借地", "leasehold"),
+    (r"建物未登記|母屋未登記|未登記の建物|建物は未登記|建物（未登記）|主屋未登記", "unregistered_building"),
+    (r"未登記", "unregistered_part"),
+    (r"管理費|管理規約|別荘地|管理組合|自治会費|環境整備費", "kanri"), (r"民泊不可", "no_minpaku"),
+    (r"民泊可|旅館業", "minpaku_ok"), (r"市街化調整区域|調整区域", "urbanization_control"),
+    (r"浄化槽", "septic"), (r"下水", "sewer"), (r"井戸", "well"),
+    (r"告知事項", "disclosure"), (r"事故物件|心理的瑕疵", "stigmatized"),
+    (r"位置指定道路|位置指定有", "designated_road"), (r"但し書き|43条", "art43"),
+    (r"雨漏り|シロアリ|白蟻|傾き|腐食", "damage"), (r"空き家バンク", "akiya_bank"),
+]
+TEXT_FIELDS = ("remarks", "agency_comment", "utilities", "city_planning", "zoning", "road",
+               "building_name", "title", "maintenance", "leasehold_terms", "kanri_text", "condition")
+
+def keywords_from(e):
+    """Keywords from the listing's own fields only (the whole fiche page carries athome
+    boilerplate such as a 借地期間 label row, which produced false positives)."""
+    text = " ".join(str(e.get(k) or "") for k in TEXT_FIELDS)
+    if e.get("leasehold_terms") and e["leasehold_terms"].strip("－- "):
+        text += " 借地権"
+    if e.get("ownership") and "所有権" not in e["ownership"]:
+        text += " 借地権"
+    kw = [tag for pat, tag in KEYWORDS if re.search(pat, text)]
+    if "unregistered_building" in kw and "unregistered_part" in kw:
+        kw.remove("unregistered_part")
+    return sorted(set(kw))
 
 def parse_fiche(body):
     d = {}
@@ -232,42 +262,28 @@ def parse_fiche(body):
             d["agency_comment"] = json.loads('"' + cm.group(1) + '"')
         except Exception:
             d["agency_comment"] = cm.group(1)
-    text = clean(body)
-    km = re.search(r"[^。、,，]{0,20}管理費[^。、,，]{0,40}", text)
+    km = re.search(r"[^。、,，]{0,20}管理費[^。、,，]{0,40}", " ".join(str(d.get(k) or "") for k in ("remarks", "agency_comment", "maintenance")))
     if km:
         d["kanri_text"] = km.group(0)
-    if d.get("city_planning") and "調整" in d["city_planning"]:
-        text += " 市街化調整区域"
-    # hazard / rebuild / land-right keywords anywhere on the fiche (remarks, notes)
-    kw = []
-    for pat, tag in [
-        (r"土砂災害特別警戒区域", "red_zone"), (r"土砂災害警戒区域", "yellow_zone"),
-        (r"浸水想定|浸水区域", "flood_zone"), (r"再建築不可|再建築が?できません|再建築は?不可", "no_rebuild"),
-        (r"借地権|地上権|定期借地", "leasehold"), (r"未登記", "unregistered"),
-        (r"管理費|管理規約|別荘地|管理組合", "kanri"), (r"民泊不可", "no_minpaku"),
-        (r"民泊可|旅館業", "minpaku_ok"), (r"市街化調整区域", "urbanization_control"),
-        (r"浄化槽", "septic"), (r"下水", "sewer"), (r"井戸", "well"),
-        (r"告知事項", "disclosure"), (r"事故物件|心理的瑕疵", "stigmatized"),
-        (r"位置指定道路", "designated_road"), (r"但し書き|43条", "art43"),
-    ]:
-        if re.search(pat, text):
-            kw.append(tag)
-    d["keywords"] = sorted(set(kw))
+    d["keywords"] = keywords_from(d)
     return d
 
 # ---------------------------------------------------------------- flags
 def compute(entry, commune):
     flags, kill = [], []
+    if entry.get("fiche_fetched"):
+        entry["keywords"] = keywords_from(entry)
+    kws = entry.get("keywords", [])
     own = entry.get("ownership", "") or ""
     if own and "所有権" not in own:
         kill.append(f"land_right:{own}")
-    if "leasehold" in entry.get("keywords", []) and "所有権" not in own:
+    elif "leasehold" in kws:
         kill.append("leasehold")
-    if "no_rebuild" in entry.get("keywords", []):
+    if "no_rebuild" in kws:
         kill.append("no_rebuild")
-    if "red_zone" in entry.get("keywords", []):
+    if "red_zone" in kws:
         kill.append("red_zone")
-    if "unregistered" in entry.get("keywords", []):
+    if "unregistered_building" in kws:
         kill.append("unregistered_building")
     y, mth = built(entry.get("築年月", ""))
     if y and (y < 1981 or (y == 1981 and (mth or 12) <= 5)):
@@ -277,8 +293,8 @@ def compute(entry, commune):
         flags.append("bus")
     if commune["tag"] == "suburb":
         flags.append("suburb")
-    for k in ("yellow_zone", "flood_zone", "kanri", "urbanization_control", "art43", "stigmatized"):
-        if k in entry.get("keywords", []):
+    for k in ("yellow_zone", "flood_zone", "kanri", "urbanization_control", "art43", "stigmatized", "unregistered_part", "damage"):
+        if k in kws:
             flags.append(k)
     m = re.search(r"徒歩\s*(\d[\d,]*)\s*ｍ", acc) or re.search(r"徒歩\s*(\d[\d,]*)\s*m", acc)
     if m:
@@ -289,7 +305,7 @@ def compute(entry, commune):
     entry["year_built"] = y
     entry["flags"] = flags
     entry["kill"] = kill
-    hard = [f for f in flags if f in ("pre1981", "bus", "yellow_zone", "flood_zone", "urbanization_control", "art43", "stigmatized")]
+    hard = [f for f in flags if f in ("pre1981", "bus", "yellow_zone", "flood_zone", "urbanization_control", "art43", "stigmatized", "unregistered_part", "damage")]
     if kill:
         entry["tier"] = 0
     elif commune["tag"] == "suburb":
@@ -304,14 +320,14 @@ def compute(entry, commune):
 def main():
     cfg = json.load(open(os.path.join(HERE, "communes.json"), encoding="utf-8"))
     cap = int(cfg["price_cap_yen"])
-    lpath = os.path.join(HERE, "ledger.json")
+    lpath = os.path.join(HERE, "ledger_full.json")
     ledger = json.load(open(lpath, encoding="utf-8")) if os.path.exists(lpath) else {"meta": {}, "items": {}}
     items = ledger["items"]
     errors, seen_today = [], set()
     new_ids, price_drops, price_ups = [], [], []
     failed_slugs = set()
     refresh_used = 0
-    only = sys.argv[1:]  # optional: slugs to scan (debug)
+    only = [a for a in sys.argv[1:] if not a.startswith("--")]  # optional: slugs to scan (debug)
     t0 = time.time()
 
     for c in cfg["communes"]:
@@ -411,9 +427,27 @@ def main():
     if BROWSER:
         ledger["meta"]["page_loads"] = BROWSER.requests
         BROWSER.close()
-    json.dump(ledger, open(lpath, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    save_ledger(ledger)
     write_diff(ledger, new_ids, price_drops, price_ups, newly_gone, errors)
     print(f"done in {time.time()-t0:.0f}s: {len(seen_today)} sous le cap, {len(new_ids)} nouveaux, {len(price_drops)} baisses, {len(newly_gone)} disparus, erreurs {len(errors)}")
+
+
+LEAN_FIELDS = ("id", "url", "price_yen", "price_history", "status", "tier", "flags", "kill", "keywords",
+               "pref", "commune", "commune_tag", "area", "所在地", "間取り", "築年月", "year_built",
+               "土地面積", "建物面積", "land_m2", "building_m2", "交通", "station_m",
+               "ownership", "city_planning", "zoning", "road", "structure", "floors", "condition",
+               "agency", "agency_tel", "agency_card", "kanri_text", "maintenance", "published",
+               "first_seen", "last_seen", "gone_date", "fiche_fetched")
+
+def save_ledger(ledger):
+    """ledger_full.json = everything. ledger.json = same items, essential fields only (what the
+    desk reads). tier1.json = active tier-1 items only, for a quick read."""
+    full = os.path.join(HERE, "ledger_full.json")
+    json.dump(ledger, open(full, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    lean = {"meta": ledger["meta"], "items": {i: {k: e[k] for k in LEAN_FIELDS if k in e} for i, e in ledger["items"].items()}}
+    json.dump(lean, open(os.path.join(HERE, "ledger.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    t1 = {"meta": ledger["meta"], "items": {i: e for i, e in lean["items"].items() if e.get("tier") == 1 and e.get("status") in ("new", "active", "back")}}
+    json.dump(t1, open(os.path.join(HERE, "tier1.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 def fmt(e):
     p = e.get("price_yen")
@@ -427,28 +461,41 @@ def fmt(e):
             f"{(' · KILL ' + ', '.join(e['kill'])) if e.get('kill') else ''} · mots-clés {', '.join(e.get('keywords') or []) or 'aucun'}\n"
             f"  - {e['url']}")
 
+def line(e):
+    p = e.get("price_yen")
+    price = f"¥{p:,}" if p else "non indiqué"
+    fl = ", ".join(e.get("flags") or []) or "aucun"
+    return (f"- {price} · {e['commune']} · {e.get('間取り') or '?'} · {e.get('年') or e.get('year_built') or '?'} · "
+            f"terrain {e.get('土地面積') or '?'} · {fl}{(' · KILL ' + ', '.join(e['kill'])) if e.get('kill') else ''} · {e['url']}")
+
+CARDS_MAX = {1: 40, 2: 30, 3: 15, 0: 10}
+
 def write_diff(ledger, new_ids, drops, ups, gone, errors):
     items = ledger["items"]
+    meta = ledger["meta"]
     L = [f"# Japan Houses — diff {TODAY}", "",
          f"**{len(new_ids)} nouveaux / {len(drops)} baisses / {len(gone)} disparus** "
-         f"(cap ¥{ledger['meta']['price_cap_yen']:,}, {ledger['meta']['communes']} communes, {ledger['meta']['seen_today']} fiches sous le cap aujourd'hui)", ""]
+         f"(cap ¥{meta['price_cap_yen']:,}, {meta['communes']} communes, {meta['seen_today']} fiches sous le cap aujourd'hui)", ""]
     if new_ids:
         L.append("## Nouveaux")
         for tier in (1, 2, 3, 0):
-            grp = [items[i] for i in new_ids if items[i].get("tier") == tier]
+            grp = sorted([items[i] for i in new_ids if items[i].get("tier") == tier], key=lambda x: x["price_yen"] or 0)
             if not grp:
                 continue
-            L.append(f"### Tier {tier}" + (" (KILL)" if tier == 0 else ""))
-            for e in sorted(grp, key=lambda x: x["price_yen"] or 0):
-                L.append(fmt(e))
+            L.append(f"### Tier {tier}{' (KILL)' if tier == 0 else ''} — {len(grp)}")
+            shown = grp[:CARDS_MAX[tier]]
+            for e in shown:
+                L.append(fmt(e) if tier == 1 else line(e))
+            if len(grp) > len(shown):
+                L.append(f"- … et {len(grp) - len(shown)} autres tier {tier} dans ledger.json (status=new)")
             L.append("")
     else:
         L += ["## Nouveaux", "Rien de neuf aujourd'hui.", ""]
     L.append("## Baisses de prix")
     if drops:
-        for pid, old, new in drops:
+        for pid, old, new in sorted(drops, key=lambda x: (x[2] - x[1]) / x[1]):
             e = items[pid]
-            L.append(f"- {e['commune']} {pid} : ¥{old:,} → ¥{new:,} ({(new-old)/old*100:+.1f}%) · {e['url']}")
+            L.append(f"- {e['commune']} {pid} : ¥{old:,} → ¥{new:,} ({(new-old)/old*100:+.1f}%) · tier {e.get('tier')} · {e['url']}")
     else:
         L.append("Aucune.")
     L.append("")
@@ -462,13 +509,14 @@ def write_diff(ledger, new_ids, drops, ups, gone, errors):
     if gone:
         for pid in gone:
             e = items[pid]
-            L.append(f"- {e['commune']} {pid} · ¥{e['price_yen']:,} · {e.get('間取り','')} · {e['url']}")
+            L.append(f"- {e['commune']} {pid} · ¥{e['price_yen']:,} · {e.get('間取り','')} · tier {e.get('tier')} · {e['url']}")
     else:
         L.append("Aucun.")
     L.append("")
     active = [e for e in items.values() if e.get("status") in ("new", "active", "back")]
     L.append(f"## Stock actif : {len(active)} fiches (tier 1 : {sum(1 for e in active if e.get('tier')==1)}, "
-             f"tier 2 : {sum(1 for e in active if e.get('tier')==2)}, tier 3 : {sum(1 for e in active if e.get('tier')==3)})")
+             f"tier 2 : {sum(1 for e in active if e.get('tier')==2)}, tier 3 : {sum(1 for e in active if e.get('tier')==3)}), "
+             f"KILL : {sum(1 for e in items.values() if e.get('status')=='dead')}")
     if errors:
         L += ["", "## Erreurs de scan", *[f"- {x}" for x in errors]]
     L.append("")
@@ -477,5 +525,35 @@ def write_diff(ledger, new_ids, drops, ups, gone, errors):
     os.makedirs(hist, exist_ok=True)
     open(os.path.join(hist, f"{TODAY}.md"), "w", encoding="utf-8").write("\n".join(L))
 
+def recompute():
+    """Re-derive keywords / flags / tiers for every entry from stored fields (no scan),
+    then rewrite diff.md for today from the ledger's own dates."""
+    cfg = json.load(open(os.path.join(HERE, "communes.json"), encoding="utf-8"))
+    communes = {c["slug"]: c for c in cfg["communes"]}
+    lpath = os.path.join(HERE, "ledger_full.json")
+    ledger = json.load(open(lpath, encoding="utf-8"))
+    items = ledger["items"]
+    for e in items.values():
+        c = communes.get(e["commune_slug"], {"tag": e.get("commune_tag", "nature")})
+        compute(e, c)
+        if e["kill"] and e.get("status") in ("new", "active", "back"):
+            e["status"] = "dead"
+        elif not e["kill"] and e.get("status") == "dead":
+            e["status"] = "active" if e.get("first_seen") != TODAY else "new"
+    new_ids = [i for i, e in items.items() if e.get("first_seen") == TODAY]
+    drops, ups = [], []
+    for i, e in items.items():
+        h = e.get("price_history") or []
+        if len(h) >= 2 and h[-1]["date"] == TODAY:
+            (drops if h[-1]["price_yen"] < h[-2]["price_yen"] else ups).append((i, h[-2]["price_yen"], h[-1]["price_yen"]))
+    gone = [i for i, e in items.items() if e.get("gone_date") == TODAY and e.get("status") == "gone"]
+    ledger["meta"]["recomputed_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    save_ledger(ledger)
+    write_diff(ledger, new_ids, drops, ups, gone, ledger["meta"].get("errors", []))
+    print(f"recomputed {len(items)} entries: tiers", {t: sum(1 for e in items.values() if e.get('tier') == t) for t in (1, 2, 3, 0)})
+
 if __name__ == "__main__":
-    main()
+    if "--recompute" in sys.argv:
+        recompute()
+    else:
+        main()

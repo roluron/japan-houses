@@ -1,0 +1,319 @@
+# Japan Houses — diff 2026-09-16
+
+**1330 nouveaux / 0 baisses / 0 disparus** (cap ¥7,500,000, 63 communes, 1330 fiches sous le cap aujourd'hui)
+
+## Nouveaux
+### Tier 1 — 203
+- **¥1,000,000** · 橋本市 · ４Ｋ · 1991年1月（築35年9ヶ月） · terrain 80.84m² · bât. 78.27m²
+  - accès : ＪＲ和歌山線 「高野口」駅 徒歩5分
+  - 橋本市高野口町名古曽 · 権利 所有権 · 非線引区域 無指定 · 接道 北
+  - agence : (株)タツミビルド · 0736-44-2170
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6992179832/
+- **¥1,080,000** · 伊賀市 · ５ＤＫ · 1985年6月（築41年4ヶ月） · terrain 124.74m² · bât. 81.97m²
+  - accès : 近鉄大阪線 「美旗」駅 徒歩22分
+  - 伊賀市上神戸 · 権利 所有権 · 非線引区域 無指定 · 接道 東 4.0m 公道 接面7.6m
+  - agence : (株)ＣＪエンターテインメント · 075-320-4084
+  - tier 1 · flags aucun · mots-clés sewer
+  - https://www.athome.co.jp/kodate/6984001419/
+- **¥1,350,000** · 紀美野町 · ２ＬＤＫ · 1985年9月（築41年1ヶ月） · terrain 360.84m² · bât. 84.41m²
+  - accès : ＪＲ紀勢本線 「海南」駅 徒歩27000ｍ
+  - 海草郡紀美野町中田 · 権利 所有権 · 区域外 無指定 · 接道 北 3.0m 私道 接面22.0m
+  - agence : バンビの住み家 (株)バンビシステム · 0736-20-2403
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6991255184/
+- **¥1,480,000** · 海南市 · ４ＬＤＫ · 1996年7月（築30年3ヶ月） · terrain 100.60m² · bât. 101.18m²
+  - accès : ＪＲ紀勢本線 「黒江」駅 徒歩22分
+  - 海南市岡田 · 権利 所有権 · 市街化区域 準工業 · 接道 東 6.0m 公道
+  - agence : センチュリー21際和歌山店 · 0120-555-635
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/1104437714/
+- **¥1,480,000** · 海南市 · ４ＬＤＫ · 1996年7月（築30年3ヶ月） · terrain 100.60m² · bât. 101.18m²
+  - accès : ＪＲ紀勢本線 「黒江」駅 徒歩22分
+  - 海南市岡田 · 権利 所有権 · 市街化区域 準工業 · 接道 東 6.0m 公道
+  - agence : ハウスドゥ 城北通り (株)和み · 073-488-1321
+  - tier 1 · flags aucun · mots-clés septic
+  - https://www.athome.co.jp/kodate/1035750293/
+- **¥1,500,000** · 九度山町 · ２ＤＫ · 1985年1月（築41年9ヶ月） · terrain 497.00m² · bât. 93.00m²
+  - accès : 南海高野線 「高野下」駅 徒歩48分
+  - 伊都郡九度山町大字丹生川 · 権利 所有権 · 準都市区域 － · 接道 西 私道・北 私道・二方道路
+  - agence : (株)フォーシナジー · 06-6110-5519
+  - tier 1 · flags kanri · mots-clés kanri
+  - https://www.athome.co.jp/kodate/6986267214/
+- **¥1,500,000** · 伊賀市 · ４ＬＤＫ · 1994年2月（築32年8ヶ月） · terrain 136.56m² · bât. 101.17m²
+  - accès : 近鉄大阪線 「美旗」駅 徒歩24分
+  - 伊賀市上神戸 · 権利 所有権 · 非線引区域 － · 接道 東
+  - agence : (株)大鵬ハウジング · 06-6753-8352
+  - tier 1 · flags aucun · mots-clés septic
+  - https://www.athome.co.jp/kodate/6988423743/
+- **¥1,680,000** · 宍粟市 · １ＤＫ · 1998年8月（築28年2ヶ月） · terrain 100.00m² · bât. 33.11m²
+  - accès : 中国道「山崎」ＩＣより約１８．２ｋｍ
+  - 宍粟市一宮町東河内 · 権利 所有権 · 区域外 無指定 · 接道 南東 6.0m 私道 接面10.5m
+  - agence : (株)ホーム・ライフ · 075-432-7201
+  - tier 1 · flags kanri · mots-clés kanri
+  - https://www.athome.co.jp/kodate/6991090057/
+- **¥1,780,000** · 伊賀市 · ４ＤＫ · 1984年8月（築42年2ヶ月） · terrain 228.40m² · bât. 101.00m²
+  - accès : 近鉄大阪線 「美旗」駅 徒歩20分
+  - 伊賀市上神戸 · 権利 所有権 · － － · 接道 北・東・二方道路
+  - agence : (株)大鵬ハウジング · 06-6753-8352
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6988005692/
+- **¥1,800,000** · 紀の川市 · ４ＤＫ · 1982年4月（築44年6ヶ月） · terrain 136.38m² · bât. 75.47m²
+  - accès : ＪＲ和歌山線 「名手」駅 徒歩6分
+  - 紀の川市名手市場 · 権利 所有権 · 非線引区域 無指定 · 接道 北 4.0m 公道 接面12.6m・東 4.0m 公道 接面6.0m・二方道路
+  - agence : ＨＳ不動産 · 0736-26-7009
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6985861257/
+- **¥1,900,000** · 九度山町 · ２ＤＫ · 2000年1月（築26年9ヶ月） · terrain 200.00m² · bât. 1.00m²
+  - accès : 南海高野線 「高野下」駅 徒歩67分
+  - 伊都郡九度山町大字丹生川 · 権利 所有権 · 非線引区域 － · 接道 －
+  - agence : (株)ライブリート · 073-463-4838
+  - tier 1 · flags kanri · mots-clés kanri
+  - https://www.athome.co.jp/kodate/6990382608/
+- **¥1,980,000** · 高島市 · ワンルーム · 2005年5月（築21年5ヶ月） · terrain 132.00m² · bât. 10.00m²
+  - accès : ＪＲ湖西線 「近江今津」駅 徒歩15分
+  - 高島市今津町大供 · 権利 所有権 · 非線引区域 無指定 · 接道 南東 4.5m 私道 位置指定有 接面6.1m
+  - agence : (有)大江住宅 · 075-593-3421
+  - tier 1 · flags aucun · mots-clés designated_road
+  - https://www.athome.co.jp/kodate/6992108559/
+- **¥1,980,000** · 伊賀市 · ６ＤＫ · 1984年6月（築42年4ヶ月） · terrain 198.34m² · bât. 95.25m²
+  - accès : 伊賀鉄道伊賀線 「新居」駅 徒歩2700ｍ
+  - 伊賀市岩倉 · 権利 所有権 · 非線引区域 無指定 · 接道 西 4.0m 公道
+  - agence : センチュリー21ハウスマーケット京都店 · 0120-65-2121
+  - tier 1 · flags aucun · mots-clés septic
+  - https://www.athome.co.jp/kodate/1079983689/
+- **¥2,000,000** · 亀岡市 · ３ＳＬＤＫ · 1986年7月（築40年3ヶ月） · terrain 165.00m² · bât. 81.14m²
+  - accès : ＪＲ茨木駅まで約１６．９ ｋｍ
+  - 亀岡市東別院町鎌倉見立 · 権利 所有権 · － － · 接道 南東 4.2m 私道 接面14.6m
+  - agence : おウチネット 高槻店 (株)六甲不動産販売 · 072-682-6000
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6986585691/
+- **¥2,200,000** · 笠置町 · ４ＤＫ · 1990年5月（築36年5ヶ月） · terrain 51.70m² · bât. 97.59m²
+  - accès : ＪＲ関西本線 「笠置」駅 徒歩9分
+  - 相楽郡笠置町大字笠置小字平田 · 権利 所有権 · － － · 接道 －
+  - agence : エステートよしなか · 0743-95-3031
+  - tier 1 · flags aucun · mots-clés septic
+  - https://www.athome.co.jp/kodate/6991664666/
+- **¥2,280,000** · 高島市 · １ＤＫ · 2003年10月（築23年） · terrain 165.00m² · bât. 22.68m²
+  - accès : ＪＲ湖西線 「近江今津」駅 徒歩15分
+  - 高島市今津町大供 · 権利 所有権 · 非線引区域 無指定 · 接道 南 4.7m 私道 接面10.0m
+  - agence : (有)上島農林 · 0120-268-123
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6988566592/
+- **¥2,400,000** · 加東市 · ７ＤＫ · 1982年6月（築44年4ヶ月） · terrain 537.18m² · bât. 162.58m²
+  - accès : ＪＲ加古川線 「青野ケ原」駅 徒歩9400ｍ
+  - 加東市松沢 · 権利 所有権 · 非線引区域 無指定 · 接道 北 5.4m 私道
+  - agence : クレシア不動産 クレシアリアルティ(株) · 0790-33-9666
+  - tier 1 · flags kanri · mots-clés kanri
+  - https://www.athome.co.jp/kodate/6989142223/
+- **¥2,500,000** · 南丹市 · ４ＬＤＫ · 1992年9月（築34年1ヶ月） · terrain 185.42m² · bât. 105.98m²
+  - accès : ＪＲ山陰本線 「日吉」駅 徒歩52分
+  - 南丹市日吉町志和賀土井ノ内 · 権利 所有権 · 区域外 無指定 · 接道 西 3.0m 接面16.0m・南 4.2m 接面19.1m・二方道路
+  - agence : (株)亀岡不動産 · 0771-23-3445
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6988218896/
+- **¥2,500,000** · 名張市 · ５ＤＫ · 1981年9月（築45年1ヶ月） · terrain 166.16m² · bât. 87.77m²
+  - accès : 近鉄大阪線 「美旗」駅 徒歩19分
+  - 名張市美旗町南西原 · 権利 所有権 · 非線引区域 無指定 · 接道 北西 6.0m 公道 接面11.9m
+  - agence : (株)ユウキホーム · 0595-66-1555
+  - tier 1 · flags aucun · mots-clés sewer
+  - https://www.athome.co.jp/kodate/6992116010/
+- **¥2,500,000** · 伊賀市 · ６ＤＫ · 1984年6月（築42年4ヶ月） · terrain 198.34m² · bât. 95.25m²
+  - accès : 伊賀鉄道伊賀線 「新居」駅 徒歩26分
+  - 伊賀市岩倉 · 権利 所有権 · 非線引区域 無指定 · 接道 西 4.0m 公道
+  - agence : アポロ興産(株) ハウスドゥ伊賀 · 0595-23-6626
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/1035017993/
+- **¥2,500,000** · 伊賀市 · ４ＬＤＫ · 1984年11月（築41年11ヶ月） · terrain 218.49m² · bât. 107.86m²
+  - accès : 近鉄大阪線 「青山町」駅 徒歩40分
+  - 伊賀市桐ケ丘８丁目 · 権利 所有権 · 非線引区域 １種低層 · 接道 －
+  - agence : (株)すまいる不動産 · 0857-30-7788
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6991591836/
+- **¥2,800,000** · 神河町 · ３Ｋ · 1983年1月（築43年9ヶ月） · terrain 256.93m² · bât. 99.76m²
+  - accès : ＪＲ播但線 「新野」駅 徒歩8分
+  - 神崎郡神河町新野 · 権利 所有権 · 区域外 － · 接道 北 3.0m 公道
+  - agence : クレシア不動産 クレシアエステート(株) · 0790-33-9860
+  - tier 1 · flags aucun · mots-clés sewer
+  - https://www.athome.co.jp/kodate/6992013408/
+- **¥2,800,000** · 御所市 · ４ＬＤＫ · 1990年1月（築36年9ヶ月） · terrain 104.55m² · bât. 85.28m²
+  - accès : 近鉄御所線 「近鉄御所」駅 徒歩14分
+  - 御所市大字櫛羅 · 権利 所有権 · 市街化区域 １種住居 · 接道 西 4.2m 私道 位置指定有 接面11.7m
+  - agence : 西本不動産 · 0745-62-1488
+  - tier 1 · flags aucun · mots-clés designated_road
+  - https://www.athome.co.jp/kodate/6989807549/
+- **¥2,800,000** · 米原市 · ４ＬＤＫ · 1982年9月（築44年1ヶ月） · terrain 386.44m² · bât. 109.15m²
+  - accès : 東海道本線 「醒ケ井」駅 徒歩3000ｍ
+  - 米原市下丹生 · 権利 所有権 · 非線引区域 － · 接道 南 6.0m 公道
+  - agence : ジューク不動産(株) · 0749-53-1904
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6989321352/
+- **¥2,800,000** · 岬町 · ５ＤＫ · 1987年3月（築39年7ヶ月） · terrain 93.86m² · bât. 52.36m²
+  - accès : 南海多奈川線 「多奈川」駅 徒歩5分
+  - 泉南郡岬町多奈川谷川 · 権利 所有権 · 市街化区域 １種住居 · 接道 北 4.0m 公道 接面6.0m・南 公道・二方道路
+  - agence : オーシャントラスト(株) · 078-600-0802
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6992184685/
+- **¥2,800,000** · 名張市 · ４ＬＤＫ · 1990年8月（築36年2ヶ月） · terrain 182.16m² · bât. 102.67m²
+  - accès : 近鉄大阪線 「赤目口」駅 徒歩23分
+  - 名張市赤目町すみれが丘 · 権利 所有権 · 非線引区域 無指定 · 接道 北西 6.0m 公道 接面8.5m・北東 6.0m 公道・二方道路
+  - agence : (有)富永不動産 · 0595-63-3281
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6992128239/
+- **¥2,900,000** · 名張市 · ４ＬＤＫ · 1984年7月（築42年3ヶ月） · terrain 186.62m² · bât. 92.94m²
+  - accès : 近鉄大阪線 「赤目口」駅 徒歩26分
+  - 名張市赤目町すみれが丘 · 権利 所有権 · 非線引区域 無指定 · 接道 南西 6.0m 公道
+  - agence : (株)中日不動産 · 0595-52-3005
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6991009330/
+- **¥2,980,000** · 多可町 · １ＬＤＫ · 1995年8月（築31年2ヶ月） · terrain 82.00m² · bât. 53.65m²
+  - accès : ＪＲ福知山線 「石生」駅 徒歩18600ｍ
+  - 多可郡多可町加美区丹治 · 権利 所有権 · 区域外 無指定 · 接道 南 5.0m 私道 接面5.5m
+  - agence : (株)ホーム・ライフ · 075-432-7201
+  - tier 1 · flags kanri · mots-clés kanri, septic
+  - https://www.athome.co.jp/kodate/6991763107/
+- **¥2,980,000** · 有田川町 · ６ＬＤＫ · 1983年6月（築43年4ヶ月） · terrain 176.47m² · bât. 368.36m²
+  - accès : ＪＲ紀勢本線 「藤並」駅 徒歩68分
+  - 有田郡有田川町大字徳田 · 権利 所有権 · 非線引区域 － · 接道 －
+  - agence : ラピト(株) · 050-5805-9447
+  - tier 1 · flags aucun · mots-clés septic
+  - https://www.athome.co.jp/kodate/1165122726/
+- **¥2,980,000** · 伊賀市 · ５ＤＫ · 1990年6月（築36年4ヶ月） · terrain 204.04m² · bât. 94.06m²
+  - accès : 伊賀鉄道伊賀線 「広小路」駅 徒歩57分
+  - 伊賀市荒木 · 権利 所有権 · 非線引区域 無指定 · 接道 東 5.2m 公道 接面13.3m
+  - agence : センチュリー21ハウスマーケット京都店 · 0120-65-2121
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/1100681214/
+- **¥2,980,000** · 伊賀市 · ５ＤＫ · 1990年6月（築36年4ヶ月） · terrain 204.04m² · bât. 94.06m²
+  - accès : 伊賀鉄道伊賀線 「茅町」駅 徒歩60分
+  - 伊賀市荒木 · 権利 所有権 · 非線引区域 無指定 · 接道 東 5.2m 公道 接面13.3m
+  - agence : アポロ興産(株) ハウスドゥ伊賀 · 0595-23-6626
+  - tier 1 · flags aucun · mots-clés septic
+  - https://www.athome.co.jp/kodate/1035019093/
+- **¥2,980,000** · 伊賀市 · ５ＤＫ · 1993年8月（築33年2ヶ月） · terrain 320.66m² · bât. 128.04m²
+  - accès : 近鉄大阪線 「伊賀上津」駅 徒歩12分
+  - 伊賀市伊勢路 · 権利 所有権 · 非線引区域 無指定 · 接道 －
+  - agence : アイワーク不動産 (株)アイ・ワーク · 0595-41-1683
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6991706283/
+- **¥2,990,000** · 伊賀市 · ４ＤＫ · 1981年7月（築45年3ヶ月） · terrain 158.28m² · bât. 125.74m²
+  - accès : 伊賀鉄道伊賀線 「広小路」駅 徒歩7分
+  - 伊賀市平野樋之口 · 権利 所有権 · 市街化区域 準工業 · 接道 東 4.0m 公道
+  - agence : センチュリー21ハウスマーケット京都店 · 0120-65-2121
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/1081752289/
+- **¥3,000,000** · 高島市 · ３Ｋ · 1981年8月（築45年2ヶ月） · terrain 164.09m² · bât. 64.69m²
+  - accès : ＪＲ湖西線 「新旭」駅 徒歩27分
+  - 高島市新旭町藁園 · 権利 所有権 · 非線引区域 無指定 · 接道 西 2.4m 公道 接面11.8m
+  - agence : ＳＡＷＡＭＵＲＡ不動産 (株)澤村 不動産課 · 0120-55-0002
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/1148717214/
+- **¥3,000,000** · 紀美野町 · １ＳＬＤＫ · 1998年1月（築28年9ヶ月） · terrain 169.00m² · bât. 33.66m²
+  - accès : ＪＲ紀勢本線 「海南」駅 徒歩20000ｍ
+  - 海草郡紀美野町花野原 · 権利 所有権 · 区域外 － · 接道 －
+  - agence : ナカヤ不動産 · 0738-65-3646
+  - tier 1 · flags kanri · mots-clés kanri
+  - https://www.athome.co.jp/kodate/6986700875/
+- **¥3,200,000** · 紀の川市 · ５ＤＫ · 1982年2月（築44年8ヶ月） · terrain 137.50m² · bât. 88.77m²
+  - accès : ＪＲ和歌山線 「打田」駅 徒歩25分
+  - 紀の川市古和田 · 権利 所有権 · 非線引区域 無指定 · 接道 北 5.5m
+  - agence : センチュリー21際和歌山店 · 0120-555-635
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/1107570714/
+- **¥3,300,000** · 加東市 · １ＬＤＫ · 1988年6月（築38年4ヶ月） · terrain 297.00m² · bât. 58.79m²
+  - accès : ＪＲ加古川線 滝野駅
+  - 加東市池之内 · 権利 所有権 · 非線引区域 無指定 · 接道 －
+  - agence : (有)ミキホームライフ · 0795-48-0008
+  - tier 1 · flags aucun · mots-clés aucun
+  - https://www.athome.co.jp/kodate/6989436548/
+- **¥3,300,000** · 紀の川市 · ５ＤＫ · 1983年5月（築43年5ヶ月） · terrain 182.96m² · bât. 100.17m²
+  - accès : わかやま電鉄貴志川線 「西山口」駅 徒歩7分
+  - 紀の川市貴志川町長山 · 権利 所有権 · 非線引区域 ２種低層 · 接道 東 公道
+  - agence : コメダ不動産(株) · 073-427-1233
+  - tier 1 · flags aucun · mots-clés sewer
+  - https://www.athome.co.jp/kodate/6989327531/
+- **¥3,300,000** · 海南市 · ４ＬＤＫ · 1996年1月（築30年9ヶ月） · terrain 83.69m² · bât. 86.66m²
+  - accès : ＪＲ紀勢本線 「海南」駅 徒歩18分
+  - 海南市大野中 · 権利 所有権 · 市街化区域 １種低層 · 接道 北東 6.0m 私道 位置指定有 接面6.6m
+  - agence : アパマンショップ不動産販売和歌山岩出店 リビングライフ(株) · 0120-63-2287
+  - tier 1 · flags aucun · mots-clés designated_road
+  - https://www.athome.co.jp/kodate/6987445271/
+- **¥3,300,000** · 海南市 · ４ＤＫ · 1996年1月（築30年9ヶ月） · terrain 83.69m² · bât. 86.66m²
+  - accès : ＪＲ紀勢本線 「海南」駅 徒歩18分
+  - 海南市大野中 · 権利 所有権 · 市街化区域 １種低層 · 接道 北東 6.0m
+  - agence : ユニバーサル · 073-488-6400
+  - tier 1 · flags aucun · mots-clés septic
+  - https://www.athome.co.jp/kodate/6990750360/
+- … et 163 autres tier 1 dans ledger.json (status=new)
+
+### Tier 2 — 739
+- ¥100 · 紀美野町 · ４ＤＫ · 1950 · terrain 339.51m² · pre1981, yellow_zone, unregistered_part · https://www.athome.co.jp/kodate/6991402582/
+- ¥10,000 · 東近江市 · ３Ｋ · 1900 · terrain 221.48m² · pre1981, bus · https://www.athome.co.jp/kodate/6991761690/
+- ¥50,000 · 海南市 · ８ＬＤＫ · 1945 · terrain 106.90m² · pre1981 · https://www.athome.co.jp/kodate/6991225040/
+- ¥180,000 · 市川町 · １０ＬＤＫ · 1926 · terrain 686.00m² · pre1981, unregistered_part, damage · https://www.athome.co.jp/kodate/6991850215/
+- ¥300,000 · 海南市 · ４ＳＤＫ · 1952 · terrain 215.54m² · pre1981 · https://www.athome.co.jp/kodate/6980212751/
+- ¥380,000 · 亀岡市 · ４ＬＤＫ · 1983 · terrain 185.80m² · bus, yellow_zone · https://www.athome.co.jp/kodate/6991669195/
+- ¥480,000 · 亀岡市 · ３ＬＤＫ · 1981 · terrain 257.74m² · bus, yellow_zone · https://www.athome.co.jp/kodate/6991673203/
+- ¥490,000 · 宍粟市 · ７ＤＫ · 1968 · terrain 899.00m² · pre1981 · https://www.athome.co.jp/kodate/6991626638/
+- ¥500,000 · 丹波篠山市 · ４ＤＫ · 1955 · terrain 212.89m² · pre1981 · https://www.athome.co.jp/kodate/6991497301/
+- ¥500,000 · 宍粟市 · ５ＬＤＫ · 1903 · terrain 517.98m² · pre1981, bus · https://www.athome.co.jp/kodate/6985433591/
+- ¥500,000 · 洲本市 · ５ＤＫ · 1945 · terrain 92.88m² · pre1981, unregistered_part · https://www.athome.co.jp/kodate/6991121231/
+- ¥500,000 · 西脇市 · ４ＬＤＫ · 1978 · terrain 65.87m² · pre1981 · https://www.athome.co.jp/kodate/1176842014/
+- ¥500,000 · 下市町 · ４ＳＫ · 1953 · terrain 103.92m² · pre1981 · https://www.athome.co.jp/kodate/6992115321/
+- ¥500,000 · 紀の川市 · ４ＤＫ · 1965 · terrain 209.08m² · pre1981 · https://www.athome.co.jp/kodate/6982919059/
+- ¥500,000 · 海南市 · ４ＳＤＫ · 1976 · terrain 336.69m² · pre1981 · https://www.athome.co.jp/kodate/6984038461/
+- ¥500,000 · 名張市 · ４ＤＫ · 1979 · terrain 80.19m² · pre1981 · https://www.athome.co.jp/kodate/6991460355/
+- ¥600,000 · 西脇市 · ４ＤＫ · 1960 · terrain 76.00m² · pre1981, unregistered_part, damage · https://www.athome.co.jp/kodate/1066878098/
+- ¥600,000 · 有田川町 · ５ＳＤＫ · 1941 · terrain 497.32m² · pre1981 · https://www.athome.co.jp/kodate/6986076391/
+- ¥700,000 · 宍粟市 · １０Ｋ · 1972 · terrain 315.07m² · pre1981 · https://www.athome.co.jp/kodate/6991563106/
+- ¥700,000 · 宍粟市 · ５ＤＫ · 1935 · terrain 566.28m² · pre1981, bus · https://www.athome.co.jp/kodate/6986250257/
+- ¥700,000 · 神河町 · ４ＤＫ · 1927 · terrain 349.39m² · pre1981 · https://www.athome.co.jp/kodate/6990657485/
+- ¥700,000 · 洲本市 · ３ＤＫ · 1981 · terrain 26.44m² · bus · https://www.athome.co.jp/kodate/6982521831/
+- ¥700,000 · 京丹波町 · ３ＳＤＫ · 1969 · terrain 218.94m² · pre1981 · https://www.athome.co.jp/kodate/6985582230/
+- ¥700,000 · 岬町 · ３ＤＫ · 1970 · terrain 304.90m² · pre1981 · https://www.athome.co.jp/kodate/6991970707/
+- ¥800,000 · 大淀町 · ９ＬＤＫ · 1977 · terrain 957.29m² · pre1981 · https://www.athome.co.jp/kodate/6990454558/
+- ¥900,000 · 三田市 · １ＬＤＫ · 1987 · terrain 243.00m² · urbanization_control · https://www.athome.co.jp/kodate/6986016332/
+- ¥900,000 · 宍粟市 · ４ＤＫ · 1978 · terrain 544.65m² · pre1981, bus · https://www.athome.co.jp/kodate/6986683012/
+- ¥900,000 · 紀の川市 · ４ＳＤＫ · 1963 · terrain 463.41m² · pre1981 · https://www.athome.co.jp/kodate/6992223130/
+- ¥900,000 · 海南市 · ８ＬＤＫ · 1972 · terrain 184.00m² · pre1981, bus, yellow_zone, damage · https://www.athome.co.jp/kodate/6991253451/
+- ¥900,000 · 海南市 · ４ＤＫ · 1966 · terrain 102.73m² · pre1981, unregistered_part · https://www.athome.co.jp/kodate/6987950588/
+- … et 709 autres tier 2 dans ledger.json (status=new)
+
+### Tier 3 — 307
+- ¥770,000 · 京都市右京区 · ワンルーム · 1986 · terrain 288.00m² · suburb · https://www.athome.co.jp/kodate/6988029256/
+- ¥780,000 · 木津川市 · ３Ｋ · 1900 · terrain 535.60m² · pre1981, suburb · https://www.athome.co.jp/kodate/6990789735/
+- ¥1,200,000 · 大津市 · ワンルーム · 1981 · terrain 109.00m² · pre1981, suburb · https://www.athome.co.jp/kodate/6984756020/
+- ¥1,480,000 · 河内長野市 · ４ＤＫ · 1981 · terrain 110.50m² · suburb · https://www.athome.co.jp/kodate/6991985823/
+- ¥1,500,000 · 平群町 · ４ＤＫ · 1975 · terrain 99.46m² · pre1981, suburb · https://www.athome.co.jp/kodate/1015095422/
+- ¥1,500,000 · 大津市 · ４Ｋ · 1964 · terrain 33.00m² · pre1981, suburb · https://www.athome.co.jp/kodate/1176881314/
+- ¥1,500,000 · 大津市 · ２ＤＫ · 1977 · terrain 330.92m² · pre1981, suburb · https://www.athome.co.jp/kodate/6989331733/
+- ¥1,500,000 · 大津市 · １ＬＤＫ · 1975 · terrain 163.00m² · pre1981, suburb · https://www.athome.co.jp/kodate/6987017463/
+- ¥1,800,000 · 桜井市 · ３Ｋ · 1955 · terrain 49.77m² · pre1981, suburb · https://www.athome.co.jp/kodate/6984220483/
+- ¥1,800,000 · 奈良市 · ３ＤＫ · 1977 · terrain 56.35m² · pre1981, suburb · https://www.athome.co.jp/kodate/1194331016/
+- ¥1,900,000 · 宝塚市 · ２ＤＫ · 1990 · terrain 238.00m² · bus, suburb · https://www.athome.co.jp/kodate/6979677725/
+- ¥1,990,000 · 宝塚市 · ３ＤＫ · 1971 · terrain 37.00m² · pre1981, suburb · https://www.athome.co.jp/kodate/1163026626/
+- ¥2,000,000 · 神戸市北区 · ３ＤＫ · 1973 · terrain 76.00m² · pre1981, bus, suburb · https://www.athome.co.jp/kodate/6990870026/
+- ¥2,000,000 · 木津川市 · ４ＤＫ · 1978 · terrain 109.08m² · pre1981, suburb · https://www.athome.co.jp/kodate/1176347914/
+- ¥2,000,000 · 奈良市 · ５ＤＫ · 1977 · terrain 126.13m² · pre1981, bus, suburb · https://www.athome.co.jp/kodate/1162610226/
+- … et 292 autres tier 3 dans ledger.json (status=new)
+
+### Tier 0 (KILL) — 81
+- ¥10,000 · 亀岡市 · ３Ｋ · 1969 · terrain 142.70m² · pre1981 · KILL no_rebuild, red_zone · https://www.athome.co.jp/kodate/6991849773/
+- ¥300,000 · 海南市 · ３Ｋ · 1968 · terrain 332.37m² · pre1981 · KILL no_rebuild · https://www.athome.co.jp/kodate/6988252594/
+- ¥480,000 · 洲本市 · ２Ｋ · 1975 · terrain 95.61m² · pre1981, bus · KILL unregistered_building · https://www.athome.co.jp/kodate/6991899872/
+- ¥700,000 · 海南市 · ３ＤＫ · 1970 · terrain 124.73m² · pre1981, bus · KILL unregistered_building · https://www.athome.co.jp/kodate/6991645207/
+- ¥750,000 · 加東市 · １Ｋ · 1981 · terrain 198.00m² · pre1981, kanri · KILL unregistered_building · https://www.athome.co.jp/kodate/6991549234/
+- ¥800,000 · 下市町 · ６Ｋ · 1966 · terrain 165.43m² · pre1981 · KILL unregistered_building · https://www.athome.co.jp/kodate/6987495928/
+- ¥800,000 · 有田川町 · １ＬＤＫ · 1993 · terrain 210.33m² · kanri · KILL unregistered_building · https://www.athome.co.jp/kodate/1004548098/
+- ¥900,000 · 東近江市 · ６ＤＫ · 1965 · terrain 99.17m² · pre1981, bus · KILL unregistered_building · https://www.athome.co.jp/kodate/6989239766/
+- ¥1,000,000 · 宇陀市 · ３ＤＫ · 1970 · terrain 449.00m² · pre1981, urbanization_control, damage · KILL no_rebuild · https://www.athome.co.jp/kodate/6989931346/
+- ¥1,000,000 · 海南市 · ４Ｋ · 1986 · terrain 124.59m² · damage · KILL no_rebuild · https://www.athome.co.jp/kodate/6986187430/
+- … et 71 autres tier 0 dans ledger.json (status=new)
+
+## Baisses de prix
+Aucune.
+
+## Disparus
+Aucun.
+
+## Stock actif : 1249 fiches (tier 1 : 203, tier 2 : 739, tier 3 : 307), KILL : 81

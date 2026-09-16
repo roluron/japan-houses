@@ -6,13 +6,15 @@ in 軽井沢町 or in Kansai communes within roughly 90 minutes of Osaka with re
 The scan runs every morning at 06:30 JST on Robin's Mac mini (launchd job `com.fromanother.japan-houses`
 → `run_mac.sh`, log in `~/Library/Logs/japan-houses.log`) and commits two files:
 
-- `ledger.json` — every listing seen under the cap, with the fiche fields, price history, flags and status
-- `diff.md` — today's changes: nouveaux / baisses / disparus
+- `diff.md` — today's changes: nouveaux / baisses / disparus (tier 1 as full cards, the rest as one-liners)
+- `ledger.json` — every listing seen under the cap: essential fields, price history, flags, tier, status (~1 MB)
+- `tier1.json` — the active tier-1 listings only, same fields (small, quick read)
+- `ledger_full.json` — everything, including 備考, agency comment, agency address / licence, reform history
 
-The desk (Grok task "Japan Houses", 07:00 JST) reads only these two raw URLs:
+The desk (Grok task "Japan Houses", 07:00 JST) reads these raw URLs:
 
 - https://raw.githubusercontent.com/roluron/japan-houses/main/diff.md
-- https://raw.githubusercontent.com/roluron/japan-houses/main/ledger.json
+- https://raw.githubusercontent.com/roluron/japan-houses/main/ledger.json (or tier1.json when the full ledger is too heavy to fetch)
 
 ## Ledger fields
 
@@ -21,9 +23,10 @@ The desk (Grok task "Japan Houses", 07:00 JST) reads only these two raw URLs:
 | `price_yen` | current price, from the list page |
 | `price_history` | `[{date, price_yen}]`, one entry per change |
 | `status` | `new` (first seen today) · `active` · `back` (reappeared) · `gone` (missing today) · `dead` (KILL flag) |
-| `tier` | 1 = nature commune, no hard flag · 2 = hard flag (bus / pre-1981 / yellow zone / flood / 調整区域) · 3 = suburb commune · 0 = KILL |
-| `flags` | `pre1981`, `bus`, `suburb`, `yellow_zone`, `flood_zone`, `kanri` (管理費 / 別荘地), `urbanization_control`, `art43`, `stigmatized` |
-| `kill` | `land_right:…` (not 所有権), `leasehold`, `no_rebuild`, `red_zone`, `unregistered_building` |
+| `tier` | 1 = nature commune, no hard flag · 2 = hard flag (bus / pre-1981 / yellow zone / flood / 調整区域 / unregistered part / damage) · 3 = suburb commune · 0 = KILL |
+| `flags` | `pre1981`, `bus`, `suburb`, `yellow_zone`, `flood_zone`, `kanri` (管理費 / 別荘地 / 自治会費), `urbanization_control`, `art43`, `stigmatized`, `unregistered_part` (未登記 extension or outbuilding), `damage` (雨漏り / シロアリ / 傾き) |
+| `kill` | `land_right:…` (not 所有権), `leasehold`, `no_rebuild`, `red_zone`, `unregistered_building` (the house itself is 未登記) |
+| `keywords` | everything matched in the listing's own text (備考, agency comment, 設備, 都市計画…), informational ones included: `septic`, `sewer`, `well`, `no_minpaku`, `minpaku_ok`, `designated_road`, `akiya_bank`, `disclosure` |
 | `ownership` `city_planning` `zoning` `road` `utilities` `remarks` `agency_comment` | copied from the fiche (土地権利 / 都市計画 / 用途地域 / 接道状況 / 設備 / 備考 / 担当コメント) |
 | `agency` `agency_tel` `agency_address` `agency_license` | 掲載会社 |
 | `kanri_text` | the 管理費 sentence when the fiche mentions one |
@@ -48,8 +51,9 @@ change `price_cap_yen`. The next run picks it up.
 ## Running locally
 
 ```
-python3 scan.py                       # full scan
+python3 scan.py                       # full scan (first run ≈ 2 h for 1 300 fiches, then a few minutes a day)
 python3 scan.py kitasaku_karuizawa-city   # one commune (debug)
+python3 scan.py --recompute           # re-derive flags / tiers / diff from ledger_full.json, no scan
 ```
 
 Needs Python 3 and Playwright with Chromium (`pip install playwright && python -m playwright install chromium`):

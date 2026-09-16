@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "japan-houses-bot"
           git config user.email "robin@fromanother.love"
-          git add ledger.json diff.md history/
+          git add ledger.json ledger_full.json tier1.json diff.md history/
           if git diff --cached --quiet; then
             echo "nothing to commit"
           else
