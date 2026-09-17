@@ -14,8 +14,25 @@ import fr
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 WEB_BASE = "https://raw.githubusercontent.com/roluron/japan-houses/main/web/"
-RATE = 155.65            # JPY per USD
+RATE = 155.65            # JPY per USD, fallback if the daily lookup fails
 RATE_DATE = "2026-09-17"
+
+
+def live_rate():
+    """Today's USD/JPY, so prices in dollars do not drift. Falls back on the constant."""
+    global RATE, RATE_DATE
+    try:
+        req = urllib.request.Request("https://api.frankfurter.app/latest?from=USD&to=JPY",
+                                     headers={"User-Agent": UA})
+        d = json.loads(urllib.request.urlopen(req, timeout=15).read())
+        r = float(d["rates"]["JPY"])
+        if 80 < r < 400:
+            RATE, RATE_DATE = round(r, 2), d.get("date", RATE_DATE)
+            print("taux du jour : %.2f ¥/$ (%s)" % (RATE, RATE_DATE))
+            return
+    except Exception as e:
+        pass
+    print("taux indisponible, on garde %.2f ¥/$" % RATE)
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36")
 # tier -> (thumbnail width, webp quality). Tiers with None get no photo.
@@ -67,6 +84,7 @@ def fetch_thumb(args):
 
 def main():
     web = "--web" in sys.argv
+    live_rate()
     full = json.load(open(os.path.join(HERE, "ledger_full.json"), encoding="utf-8"))
     photos = {}
     pp = os.path.join(HERE, "photos.json")
