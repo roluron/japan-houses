@@ -13,6 +13,7 @@ import urllib.request
 import fr
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+WEB_BASE = "https://raw.githubusercontent.com/roluron/japan-houses/main/web/"
 RATE = 155.65            # JPY per USD
 RATE_DATE = "2026-09-17"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -65,6 +66,7 @@ def fetch_thumb(args):
 
 
 def main():
+    web = "--web" in sys.argv
     full = json.load(open(os.path.join(HERE, "ledger_full.json"), encoding="utf-8"))
     photos = {}
     pp = os.path.join(HERE, "photos.json")
@@ -86,6 +88,9 @@ def main():
         out.append(translate_pinned(e))
 
     # --- thumbnails
+    imgdir = os.path.join(HERE, "web", "img")
+    if web:
+        os.makedirs(imgdir, exist_ok=True)
     jobs, idx = [], []
     for i, x in enumerate(out):
         spec = THUMB.get(x["t"])
@@ -101,7 +106,14 @@ def main():
     with ThreadPoolExecutor(max_workers=6) as ex:
         for n, (i, data) in enumerate(zip(idx, ex.map(fetch_thumb, jobs))):
             if data:
-                out[i]["im"] = "data:image/webp;base64," + __import__("base64").b64encode(data).decode()
+                if web:
+                    name = "img/%s.webp" % out[i]["i"]
+                    dest = os.path.join(HERE, "web", name)
+                    if not os.path.exists(dest) or open(dest, "rb").read() != data:
+                        open(dest, "wb").write(data)
+                    out[i]["im"] = name
+                else:
+                    out[i]["im"] = "data:image/webp;base64," + __import__("base64").b64encode(data).decode()
             if n and n % 200 == 0:
                 print("  %d/%d (%.0fs)" % (n, len(jobs), time.time() - t0), flush=True)
     got = sum(1 for x in out if x.get("im"))
@@ -109,12 +121,36 @@ def main():
         x.pop("_img", None)
 
     out.sort(key=lambda x: (x["t"], x["p"] or 0))
-    payload = json.dumps({"date": full["meta"]["date"], "cap": full["meta"]["price_cap_yen"],
-                          "communes": full["meta"]["communes"], "rate": RATE,
-                          "rate_date": RATE_DATE, "items": out},
-                         ensure_ascii=False, separators=(",", ":"))
-    payload = payload.replace("<", "\\u003c").replace(">", "\\u003e")
+    data = {"date": full["meta"]["date"], "cap": full["meta"]["price_cap_yen"],
+            "communes": full["meta"]["communes"], "rate": RATE,
+            "rate_date": RATE_DATE, "items": out}
     tpl = open(os.path.join(HERE, "site", "tpl.html"), encoding="utf-8").read()
+
+    if web:
+        data["imgbase"] = WEB_BASE
+        json.dump(data, open(os.path.join(HERE, "web", "data.json"), "w", encoding="utf-8"),
+                  ensure_ascii=False, separators=(",", ":"))
+        loader = json.dumps({"src": WEB_BASE + "data.json"})
+        page = ("<!doctype html>\n<html lang=\"fr\">\n<head>\n"
+                "<meta charset=\"utf-8\">\n"
+                "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n"
+                "<meta name=\"robots\" content=\"noindex, nofollow\">\n"
+                "<style>:root{padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0);"
+                "color-scheme:light dark}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>\n"
+                + tpl.replace("__DATA__", loader) + "\n</body>\n</html>\n")
+        # the shared template opens its content right after <head>; close the head first
+        page = page.replace("<title>Japan Houses</title>", "<title>Japan Houses — fromanother</title>", 1)
+        head_end = page.index("</style>\n\n<header")
+        page = page[:head_end + len("</style>")] + "\n</head>\n<body>" + page[head_end + len("</style>"):]
+        dest = os.path.join(HERE, "web", "index.html")
+        open(dest, "w", encoding="utf-8").write(page)
+        dj = os.path.getsize(os.path.join(HERE, "web", "data.json")) / 1024 / 1024
+        print("web/ : %d biens, %d photos, page %d KB + data %.2f MB + img/" % (
+            len(out), got, os.path.getsize(dest) // 1024, dj))
+        return
+
+    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    payload = payload.replace("<", "\\u003c").replace(">", "\\u003e")
     dest = os.path.join(HERE, "site", "index.html")
     open(dest, "w", encoding="utf-8").write(tpl.replace("__DATA__", payload))
     mb = os.path.getsize(dest) / 1024 / 1024

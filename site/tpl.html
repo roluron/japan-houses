@@ -232,8 +232,17 @@ footer b{color:var(--muted);font-weight:500}
 <script>
 (function(){
 "use strict";
-var DB = JSON.parse(document.getElementById('data').textContent);
-var ALL = DB.items, RATE = DB.rate;
+var DB, ALL, RATE, IMGBASE = '';
+var RAW = JSON.parse(document.getElementById('data').textContent);
+if (RAW.src){
+  document.getElementById('count').textContent = 'chargement…';
+  fetch(RAW.src, {cache:'no-cache'}).then(function(r){ return r.json(); }).then(boot)
+    .catch(function(){ document.getElementById('list').innerHTML =
+      '<div class="empty">Impossible de charger les données. Réessaie dans un instant.</div>'; });
+} else { boot(RAW); }
+
+function boot(db){
+DB = db; ALL = DB.items; RATE = DB.rate; IMGBASE = DB.imgbase || '';
 document.getElementById('asof').textContent = 'scan du ' + frDate(DB.date) + ' · ' + RATE.toString().replace('.',',') + ' ¥/$';
 
 var TSUBO = 3.305785;
@@ -326,7 +335,7 @@ function rowHTML(x){
   if(x.b) specs.push('<span>habitable <b>'+nb(x.b)+'</b> m²</span>');
   var w=walk(x.sm); if(w) specs.push('<span>gare <b>'+w+'</b></span>');
 
-  var shot = x.im ? '<img class="shot" src="'+x.im+'" alt="" loading="lazy">'
+  var shot = x.im ? '<img class="shot" src="'+(x.im.indexOf('data:')===0?x.im:IMGBASE+x.im)+'" alt="" loading="lazy">'
                   : '<div class="noshot">photo sur la fiche</div>';
   return shot+
     '<div class="price mono">'+usd(x.p)+'<span class="usd">'+yen(x.p)+'</span>'+
@@ -451,5 +460,6 @@ document.getElementById('theme').addEventListener('click',function(){
 });
 
 render();
+}
 })();
 </script>

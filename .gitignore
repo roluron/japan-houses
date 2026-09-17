@@ -6,3 +6,4 @@ slugs_raw.json
 .browser-profile/
 .thumbcache/
 site/index.html
+web/_test.*

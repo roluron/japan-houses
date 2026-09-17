@@ -11,7 +11,8 @@ cd "$REPO" || exit 1
   git pull --rebase --quiet origin main || echo "git pull failed (continuing)"
   python3 scan.py
   python3 photos.py
-  git add ledger.json ledger_full.json tier1.json photos.json diff.md history/
+  python3 build_site.py --web
+  git add ledger.json ledger_full.json tier1.json photos.json diff.md history/ web/
   if git diff --cached --quiet; then
     echo "nothing to commit"
   else
