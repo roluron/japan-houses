@@ -1,8 +1,8 @@
 __pycache__/
 *.pyc
-*.html
+/*.html
 slugs_raw.json
 .DS_Store
 .browser-profile/
-photos.json
 .thumbcache/
+site/index.html

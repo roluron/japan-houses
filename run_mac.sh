@@ -10,7 +10,8 @@ cd "$REPO" || exit 1
   echo "=== $(date '+%F %T %Z') start"
   git pull --rebase --quiet origin main || echo "git pull failed (continuing)"
   python3 scan.py
-  git add ledger.json ledger_full.json tier1.json diff.md history/
+  python3 photos.py
+  git add ledger.json ledger_full.json tier1.json photos.json diff.md history/
   if git diff --cached --quiet; then
     echo "nothing to commit"
   else
