@@ -19,7 +19,7 @@ NAME_FIX = {"Ōsaka":"Osaka","Kyōto":"Kyoto","Kōbe":"Kobe","Tōkyō":"Tokyo","
             "Fudōsan":"Fudōsan","Pitattohausu":"Pitat House","Eeburu":"Able","Maaketto":"Market",
             "Māketto":"Market","Riaruto":"Realty","Esuteeto":"Estate","Esutēto":"Estate",
             "Guruupu":"Group","Gurūpu":"Group","Hausumaaketto":"House Market",
-            "Hausumāketto":"House Market","Rezōto":"Resort","Rizōto":"Resort"}
+            "Hausumāketto":"House Market","Rezōto":"Resort","Rizōto":"Resort","Konsarutingu":"Consulting","Konsaruteingu":"Consulting","Paru":"Pal","Puran":"Plan","Sābisu":"Service","Nettowāku":"Network","Kōporēshon":"Corporation"}
 
 def romaji(s, caps=True, joined=False):
     s = (s or "").strip()
@@ -43,7 +43,7 @@ def romaji(s, caps=True, joined=False):
 
 PREF = {"nagano": "Nagano", "hyogo": "Hyōgo", "nara": "Nara", "kyoto": "Kyoto",
         "shiga": "Shiga", "wakayama": "Wakayama", "osaka": "Osaka", "mie": "Mie",
-        "fukui": "Fukui"}
+        "fukui": "Fukui", "tochigi": "Tochigi"}
 
 COMMUNE = {
  "軽井沢町":"Karuizawa","三田市":"Sanda","丹波篠山市":"Tamba-Sasayama","丹波市":"Tamba",
@@ -60,7 +60,7 @@ COMMUNE = {
  "かつらぎ町":"Katsuragi","九度山町":"Kudoyama","高野町":"Kōya","紀の川市":"Kinokawa",
  "海南市":"Kainan","紀美野町":"Kimino","有田川町":"Aridagawa","能勢町":"Nose","豊能町":"Toyono",
  "千早赤阪村":"Chihayaakasaka","河南町":"Kanan","太子町":"Taishi","岬町":"Misaki",
- "河内長野市":"Kawachinagano","名張市":"Nabari","伊賀市":"Iga","越前町":"Echizen",
+ "河内長野市":"Kawachinagano","名張市":"Nabari","伊賀市":"Iga","越前町":"Echizen","那須町":"Nasu","那須塩原市":"Nasushiobara",
 }
 
 OWNERSHIP = {"所有権":"Pleine propriété","借地権":"Bail au sol","地上権":"Droit de superficie",
@@ -234,6 +234,7 @@ def agency(s):
     s = re.sub(r"[（(]株[)）]|株式会社", " ", s)
     s = re.sub(r"[（(]有[)）]|有限会社", " ", s)
     s = re.sub(r"[（(]同[)）]|合同会社", " ", s)
+    s = s.replace("・", " ")
     s = re.sub(r"\s*[（(][^）)]*[)）]\s*", " ", s)
     br = ""
     m = re.search(r"([\u4e00-\u9fff]{2,4})店$", s)
@@ -293,7 +294,7 @@ PHRASES = [
  (r"自治会", "Adhésion à l'association de quartier demandée", 0),
  (r"環境整備費", "Redevance d'entretien du site", 1),
  (r"別荘地|リゾート", "Lotissement de résidences secondaires", 1),
- (r"民泊不可", "Location touristique interdite", 1),
+ (r"民泊(?:は|も)?不可", "Location touristique interdite", 1),
  (r"民泊可|旅館業", "Location touristique possible", 0),
  (r"商用利用は?不可|商業利用不可", "Usage commercial interdit", 1),
  (r"空き家バンク", "Issu d'une banque de maisons vides (akiya bank)", 0),
@@ -338,6 +339,11 @@ PHRASES = [
  (r"エアコン", "Climatisation installée", 0),
  (r"IT重説|ＩＴ重説", "Explication légale possible en visio", 0),
  (r"古民家|kominka", "Kominka : maison traditionnelle ancienne", 0),
+ (r"温泉", "Source chaude raccordable (frais d'entrée et abonnement)", 0),
+ (r"小川|清流|せせらぎ", "Ruisseau sur le terrain", 0),
+ (r"景観法|景観条例", "Loi paysage : travaux encadrés", 1),
+ (r"除湿乾燥機|床下換気扇", "Déshumidificateur et ventilation du vide sanitaire installés", 0),
+ (r"弊社が売主|売主物件", "Vendeur direct : pas de commission d'agence", 0),
 ]
 _COMPILED = [(re.compile(p), b, s) for p, b, s in PHRASES]
 
