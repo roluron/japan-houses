@@ -4,3 +4,4 @@ __pycache__/
 slugs_raw.json
 .DS_Store
 .browser-profile/
+site/index.html
