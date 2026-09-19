@@ -1,16 +1,16 @@
 {
  "meta": {
-  "scanned_at": "2026-09-18T21:38:42+00:00",
-  "date": "2026-09-19",
+  "scanned_at": "2026-09-19T21:38:25+00:00",
+  "date": "2026-09-20",
   "price_cap_yen": 7500000,
   "communes": 63,
-  "seen_today": 1321,
-  "new": 15,
-  "price_drops": 6,
-  "gone": 24,
+  "seen_today": 1346,
+  "new": 18,
+  "price_drops": 3,
+  "gone": 9,
   "errors": [],
   "source": "athome.co.jp 中古一戸建て, SORT=価格が安い順",
-  "page_loads": 100
+  "page_loads": 96
  },
  "items": {
   "6988287340": {
@@ -61,7 +61,7 @@
    "kanri_text": "し・レイクニュータウン管理規約有り・年間管理費負担有り",
    "published": "2025年11月6日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991912612": {
@@ -105,7 +105,7 @@
    "agency_card": "",
    "published": "2026年8月28日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991452885": {
@@ -152,7 +152,7 @@
    "agency_card": "",
    "published": "2026年7月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990398730": {
@@ -196,7 +196,7 @@
    "agency_card": "",
    "published": "2026年9月12日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990302010": {
@@ -242,7 +242,7 @@
    "agency_card": "",
    "published": "2026年4月12日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6989706657": {
@@ -288,7 +288,7 @@
    "agency_card": "",
    "published": "2026年4月3日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1165913626": {
@@ -332,7 +332,7 @@
    "agency_card": "",
    "published": "2026年8月2日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991453771": {
@@ -378,7 +378,7 @@
    "agency_card": "",
    "published": "2026年7月26日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991833242": {
@@ -424,7 +424,7 @@
    "agency_card": "",
    "published": "2026年9月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990831091": {
@@ -470,7 +470,7 @@
    "agency_card": "",
    "published": "2026年5月23日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6976754127": {
@@ -514,7 +514,7 @@
    "agency_card": "",
    "published": "2026年8月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987689922": {
@@ -561,7 +561,7 @@
    "agency_card": "",
    "published": "2025年9月17日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991090057": {
@@ -610,51 +610,7 @@
    "kanri_text": "－ 敷金・保証金 － / － 維持費等 管理費：55",
    "published": "2026年6月15日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
-   "fiche_fetched": "2026-09-16"
-  },
-  "6991221101": {
-   "id": "6991221101",
-   "url": "https://www.athome.co.jp/kodate/6991221101/",
-   "price_yen": 4800000,
-   "price_history": [
-    {
-     "date": "2026-09-16",
-     "price_yen": 4800000
-    }
-   ],
-   "status": "active",
-   "tier": 1,
-   "flags": [],
-   "kill": [],
-   "keywords": [],
-   "pref": "hyogo",
-   "commune": "宍粟市",
-   "commune_tag": "nature",
-   "area": "kansai",
-   "所在地": "宍粟市一宮町東河内",
-   "間取り": "１ＬＤＫ",
-   "築年月": "2003年8月（築23年2ヶ月）",
-   "year_built": 2003,
-   "土地面積": "100.04m²",
-   "建物面積": "51.34m²",
-   "land_m2": 100.04,
-   "building_m2": 51.34,
-   "交通": "ＪＲ播但線 長谷駅２２８００ｍ",
-   "station_m": null,
-   "ownership": "所有権",
-   "city_planning": "区域外",
-   "zoning": "－",
-   "road": "西 公道",
-   "structure": "木造",
-   "floors": "2階建",
-   "condition": "空家",
-   "agency": "アズライト(株)",
-   "agency_tel": "079-558-7932",
-   "agency_card": "",
-   "published": "2026年6月23日",
-   "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6983472368": {
@@ -705,7 +661,7 @@
    "kanri_text": "－ 敷金・保証金 － / － 維持費等 管理費：55",
    "published": "2024年9月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991614136": {
@@ -752,7 +708,7 @@
    "agency_card": "",
    "published": "2026年7月25日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992013408": {
@@ -798,7 +754,7 @@
    "agency_card": "",
    "published": "2026年8月31日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987084414": {
@@ -842,7 +798,7 @@
    "agency_card": "",
    "published": "2026年4月23日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986025503": {
@@ -888,7 +844,7 @@
    "agency_card": "",
    "published": "2025年4月19日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6984370890": {
@@ -932,7 +888,7 @@
    "agency_card": "",
    "published": "2024年12月6日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986177676": {
@@ -976,7 +932,7 @@
    "agency_card": "",
    "published": "2025年5月2日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991130365": {
@@ -1020,7 +976,7 @@
    "agency_card": "",
    "published": "2026年6月16日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987186022": {
@@ -1067,7 +1023,7 @@
    "agency_card": "",
    "published": "2025年7月31日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987937703": {
@@ -1111,7 +1067,7 @@
    "agency_card": "",
    "published": "2025年10月8日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1168606729": {
@@ -1157,7 +1113,7 @@
    "agency_card": "",
    "published": "2026年7月13日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6989142223": {
@@ -1205,7 +1161,7 @@
    "agency_card": "",
    "published": "2026年1月23日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6989436548": {
@@ -1249,7 +1205,7 @@
    "agency_card": "",
    "published": "2026年7月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6980413999": {
@@ -1299,7 +1255,7 @@
    "kanri_text": " 自治会に管理費（年間８",
    "published": "2025年9月5日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990477167": {
@@ -1348,7 +1304,7 @@
    "kanri_text": "－ 敷金・保証金 － / － 維持費等 管理費：10",
    "published": "2026年4月24日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1101679514": {
@@ -1396,7 +1352,7 @@
    "agency_card": "",
    "published": "2026年2月14日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991763107": {
@@ -1450,7 +1406,7 @@
    "maintenance": "自治会費：20,000円/年",
    "published": "2026年8月6日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-18"
   },
   "1034560693": {
@@ -1500,7 +1456,7 @@
    "agency_card": "",
    "published": "2026年5月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1120978418": {
@@ -1547,7 +1503,7 @@
    "agency_card": "",
    "published": "2026年1月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1176625714": {
@@ -1594,7 +1550,7 @@
    "agency_card": "",
    "published": "2026年8月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986585691": {
@@ -1638,7 +1594,7 @@
    "agency_card": "",
    "published": "2026年7月23日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6988423137": {
@@ -1682,7 +1638,7 @@
    "agency_card": "",
    "published": "2025年11月17日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6988758284": {
@@ -1733,7 +1689,7 @@
    "kanri_text": "荘地の井戸水を利用することができます■■管理費（定住４．５万円／年 別荘３．０万円／円 周辺情報 地図 京都府亀岡市東別院町湯",
    "published": "2025年12月13日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990042713": {
@@ -1777,7 +1733,7 @@
    "agency_card": "",
    "published": "2026年9月4日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1045536386": {
@@ -1823,7 +1779,7 @@
    "agency_card": "",
    "published": "2024年12月19日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6988218896": {
@@ -1867,7 +1823,7 @@
    "agency_card": "",
    "published": "2025年11月17日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991135021": {
@@ -1913,7 +1869,7 @@
    "agency_card": "",
    "published": "2026年6月16日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990218026": {
@@ -1957,7 +1913,7 @@
    "agency_card": "",
    "published": "2026年4月6日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986830759": {
@@ -2001,7 +1957,7 @@
    "agency_card": "",
    "published": "2026年1月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990391053": {
@@ -2047,7 +2003,7 @@
    "agency_card": "",
    "published": "2026年5月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987351717": {
@@ -2093,7 +2049,7 @@
    "agency_card": "",
    "published": "2025年8月18日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991434124": {
@@ -2139,7 +2095,7 @@
    "agency_card": "",
    "published": "2026年7月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6982386052": {
@@ -2183,7 +2139,7 @@
    "agency_card": "",
    "published": "2026年9月4日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991664666": {
@@ -2229,7 +2185,7 @@
    "agency_card": "",
    "published": "2026年8月5日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990873857": {
@@ -2275,7 +2231,7 @@
    "agency_card": "",
    "published": "2026年5月26日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1176764914": {
@@ -2319,7 +2275,7 @@
    "agency_card": "",
    "published": "2026年8月31日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1109315303": {
@@ -2363,7 +2319,7 @@
    "agency_card": "",
    "published": "2025年11月24日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991265383": {
@@ -2407,7 +2363,53 @@
    "agency_card": "",
    "published": "2026年8月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
+   "fiche_fetched": "2026-09-16"
+  },
+  "1169729409": {
+   "id": "1169729409",
+   "url": "https://www.athome.co.jp/kodate/1169729409/",
+   "price_yen": 4800000,
+   "price_history": [
+    {
+     "date": "2026-09-16",
+     "price_yen": 4800000
+    }
+   ],
+   "status": "back",
+   "tier": 1,
+   "flags": [],
+   "kill": [],
+   "keywords": [
+    "sewer"
+   ],
+   "pref": "nara",
+   "commune": "大淀町",
+   "commune_tag": "nature",
+   "area": "kansai",
+   "所在地": "吉野郡大淀町大字北野",
+   "間取り": "２ＤＫ",
+   "築年月": "1986年12月（築39年10ヶ月）",
+   "year_built": 1986,
+   "土地面積": "232.79m²",
+   "建物面積": "48.02m²",
+   "land_m2": 232.79,
+   "building_m2": 48.02,
+   "交通": "近鉄吉野線 「六田」駅 徒歩23分",
+   "station_m": 1840,
+   "ownership": "所有権",
+   "city_planning": "市街化区域",
+   "zoning": "１種低層",
+   "road": "－",
+   "structure": "木造",
+   "floors": "平屋建",
+   "condition": "賃貸中",
+   "agency": "(株)ガイダンス",
+   "agency_tel": "0744-21-1146",
+   "agency_card": "",
+   "published": "2025年7月19日",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991134784": {
@@ -2453,7 +2455,7 @@
    "agency_card": "",
    "published": "2026年6月16日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991479580": {
@@ -2499,7 +2501,7 @@
    "agency_card": "",
    "published": "2026年7月14日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6982825999": {
@@ -2545,7 +2547,7 @@
    "agency_card": "",
    "published": "2024年7月3日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990703244": {
@@ -2589,7 +2591,7 @@
    "agency_card": "",
    "published": "2026年7月14日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1105776114": {
@@ -2635,7 +2637,7 @@
    "agency_card": "",
    "published": "2026年6月22日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6989807549": {
@@ -2681,7 +2683,7 @@
    "agency_card": "",
    "published": "2026年8月25日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1175793914": {
@@ -2727,7 +2729,7 @@
    "agency_card": "",
    "published": "2026年4月23日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1176489614": {
@@ -2773,7 +2775,7 @@
    "agency_card": "",
    "published": "2026年7月24日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1048252475": {
@@ -2819,7 +2821,7 @@
    "agency_card": "",
    "published": "2023年11月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992108559": {
@@ -2865,7 +2867,7 @@
    "agency_card": "",
    "published": "2026年9月6日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1148717214": {
@@ -2909,7 +2911,7 @@
    "agency_card": "",
    "published": "2025年10月18日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1000902698": {
@@ -2959,7 +2961,7 @@
    "agency_card": "",
    "published": "2024年9月15日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6989541427": {
@@ -3009,7 +3011,7 @@
    "agency_card": "",
    "published": "2026年3月22日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987700384": {
@@ -3058,7 +3060,7 @@
    "agency_card": "",
    "published": "2026年7月4日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1176863714": {
@@ -3104,7 +3106,7 @@
    "agency_card": "",
    "published": "2026年9月13日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990457648": {
@@ -3151,7 +3153,7 @@
    "agency_card": "",
    "published": "2026年7月4日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991385729": {
@@ -3195,7 +3197,7 @@
    "agency_card": "",
    "published": "2026年9月3日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991332784": {
@@ -3244,7 +3246,7 @@
    "agency_card": "",
    "published": "2026年7月2日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6980662946": {
@@ -3295,7 +3297,7 @@
    "maintenance": "－",
    "published": "2026年4月27日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-19"
   },
   "1166733826": {
@@ -3341,7 +3343,7 @@
    "agency_card": "",
    "published": "2026年8月22日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991003307": {
@@ -3387,7 +3389,7 @@
    "agency_card": "",
    "published": "2026年7月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1176653314": {
@@ -3433,7 +3435,7 @@
    "agency_card": "",
    "published": "2026年8月17日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1130007608": {
@@ -3479,7 +3481,7 @@
    "agency_card": "",
    "published": "2026年5月21日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1150889731": {
@@ -3526,7 +3528,7 @@
    "agency_card": "",
    "published": "2026年8月28日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991692811": {
@@ -3577,7 +3579,7 @@
    "agency_card": "",
    "published": "2026年8月1日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991963589": {
@@ -3623,7 +3625,7 @@
    "agency_card": "",
    "published": "2026年8月25日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6988960864": {
@@ -3669,7 +3671,7 @@
    "agency_card": "",
    "published": "2026年1月5日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990417707": {
@@ -3715,7 +3717,7 @@
    "agency_card": "",
    "published": "2026年4月20日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1044661886": {
@@ -3761,7 +3763,7 @@
    "agency_card": "",
    "published": "2026年9月4日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6981634999": {
@@ -3807,7 +3809,7 @@
    "agency_card": "",
    "published": "2025年4月24日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1175207914": {
@@ -3851,7 +3853,7 @@
    "agency_card": "",
    "published": "2026年2月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992097225": {
@@ -3897,7 +3899,7 @@
    "agency_card": "",
    "published": "2026年9月5日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1165476426": {
@@ -3943,7 +3945,7 @@
    "agency_card": "",
    "published": "2026年8月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1172050209": {
@@ -3989,7 +3991,7 @@
    "agency_card": "",
    "published": "2026年7月4日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6989321352": {
@@ -4033,7 +4035,7 @@
    "agency_card": "",
    "published": "2026年2月2日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992179832": {
@@ -4077,7 +4079,7 @@
    "agency_card": "",
    "published": "2026年9月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6988663529": {
@@ -4121,7 +4123,7 @@
    "agency_card": "",
    "published": "2026年6月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987440465": {
@@ -4167,7 +4169,7 @@
    "agency_card": "",
    "published": "2025年8月26日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992144786": {
@@ -4213,7 +4215,7 @@
    "agency_card": "",
    "published": "2026年9月8日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6970247590": {
@@ -4257,7 +4259,7 @@
    "agency_card": "",
    "published": "2025年6月20日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6973293058": {
@@ -4304,7 +4306,53 @@
    "agency_card": "",
    "published": "2026年1月17日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
+   "fiche_fetched": "2026-09-16"
+  },
+  "1161942426": {
+   "id": "1161942426",
+   "url": "https://www.athome.co.jp/kodate/1161942426/",
+   "price_yen": 4980000,
+   "price_history": [
+    {
+     "date": "2026-09-16",
+     "price_yen": 4980000
+    }
+   ],
+   "status": "back",
+   "tier": 1,
+   "flags": [],
+   "kill": [],
+   "keywords": [
+    "septic"
+   ],
+   "pref": "wakayama",
+   "commune": "橋本市",
+   "commune_tag": "nature",
+   "area": "kansai",
+   "所在地": "橋本市学文路",
+   "間取り": "４ＬＤＫ",
+   "築年月": "1992年10月（築34年）",
+   "year_built": 1992,
+   "土地面積": "66.74m²",
+   "建物面積": "94.72m²",
+   "land_m2": 66.74,
+   "building_m2": 94.72,
+   "交通": "南海高野線 「学文路」駅 徒歩13分",
+   "station_m": 1040,
+   "ownership": "所有権",
+   "city_planning": "非線引区域",
+   "zoning": "無指定",
+   "road": "－",
+   "structure": "木造",
+   "floors": "3階建",
+   "condition": "空家",
+   "agency": "(株)ガイダンス",
+   "agency_tel": "0744-21-1146",
+   "agency_card": "",
+   "published": "2026年5月8日",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991374839": {
@@ -4351,7 +4399,7 @@
    "agency_card": "",
    "published": "2026年7月5日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991106361": {
@@ -4395,7 +4443,7 @@
    "agency_card": "",
    "published": "2026年6月14日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1175342414": {
@@ -4441,7 +4489,7 @@
    "agency_card": "",
    "published": "2026年8月6日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6988841341": {
@@ -4487,7 +4535,7 @@
    "agency_card": "",
    "published": "2025年12月20日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987247051": {
@@ -4533,7 +4581,7 @@
    "agency_card": "",
    "published": "2025年8月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1163042226": {
@@ -4577,7 +4625,7 @@
    "agency_card": "",
    "published": "2026年6月30日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992146795": {
@@ -4621,7 +4669,7 @@
    "agency_card": "",
    "published": "2026年9月8日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6978159021": {
@@ -4667,7 +4715,7 @@
    "agency_card": "",
    "published": "2026年4月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991909131": {
@@ -4714,7 +4762,7 @@
    "agency_card": "",
    "published": "2026年8月21日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986267214": {
@@ -4763,7 +4811,7 @@
    "kanri_text": "－ 敷金・保証金 － / － 維持費等 管理費：42",
    "published": "2026年9月15日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990382608": {
@@ -4811,7 +4859,7 @@
    "agency_card": "",
    "published": "2026年4月17日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6985861257": {
@@ -4855,7 +4903,7 @@
    "agency_card": "",
    "published": "2026年7月16日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1107570714": {
@@ -4899,7 +4947,7 @@
    "agency_card": "",
    "published": "2026年8月28日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6989327531": {
@@ -4945,7 +4993,7 @@
    "agency_card": "",
    "published": "2026年2月2日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1164841926": {
@@ -4989,7 +5037,7 @@
    "agency_card": "",
    "published": "2026年7月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6970553872": {
@@ -5033,7 +5081,7 @@
    "agency_card": "",
    "published": "2026年7月20日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986136149": {
@@ -5079,7 +5127,7 @@
    "agency_card": "",
    "published": "2025年5月1日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6982188319": {
@@ -5123,7 +5171,7 @@
    "agency_card": "",
    "published": "2025年3月28日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6985826214": {
@@ -5167,7 +5215,7 @@
    "agency_card": "",
    "published": "2026年5月22日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1109272603": {
@@ -5213,7 +5261,7 @@
    "agency_card": "",
    "published": "2025年11月22日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991834343": {
@@ -5257,7 +5305,7 @@
    "agency_card": "",
    "published": "2026年8月15日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991491759": {
@@ -5301,7 +5349,7 @@
    "agency_card": "",
    "published": "2026年7月15日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987467356": {
@@ -5347,7 +5395,7 @@
    "agency_card": "",
    "published": "2026年2月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990317394": {
@@ -5393,7 +5441,7 @@
    "agency_card": "",
    "published": "2026年7月2日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1151309831": {
@@ -5440,7 +5488,7 @@
    "agency_card": "",
    "published": "2026年9月5日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992090455": {
@@ -5486,7 +5534,7 @@
    "agency_card": "",
    "published": "2026年9月4日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991814673": {
@@ -5532,7 +5580,7 @@
    "agency_card": "",
    "published": "2026年8月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6982073704": {
@@ -5576,7 +5624,7 @@
    "agency_card": "",
    "published": "2026年7月3日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991325392": {
@@ -5622,7 +5670,7 @@
    "agency_card": "",
    "published": "2026年7月1日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991346822": {
@@ -5668,7 +5716,7 @@
    "agency_card": "",
    "published": "2026年7月3日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990307917": {
@@ -5714,7 +5762,7 @@
    "agency_card": "",
    "published": "2026年4月18日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1164663526": {
@@ -5758,7 +5806,7 @@
    "agency_card": "",
    "published": "2026年7月28日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1151894917": {
@@ -5804,7 +5852,7 @@
    "agency_card": "",
    "published": "2026年9月14日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1035750293": {
@@ -5850,7 +5898,7 @@
    "agency_card": "",
    "published": "2026年5月19日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987445271": {
@@ -5896,7 +5944,7 @@
    "agency_card": "",
    "published": "2026年7月3日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990750360": {
@@ -5942,7 +5990,7 @@
    "agency_card": "",
    "published": "2026年5月20日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987522620": {
@@ -5988,7 +6036,7 @@
    "agency_card": "",
    "published": "2025年9月6日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987679528": {
@@ -6034,7 +6082,51 @@
    "agency_card": "",
    "published": "2025年10月2日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
+   "fiche_fetched": "2026-09-16"
+  },
+  "6976243962": {
+   "id": "6976243962",
+   "url": "https://www.athome.co.jp/kodate/6976243962/",
+   "price_yen": 7000000,
+   "price_history": [
+    {
+     "date": "2026-09-16",
+     "price_yen": 7000000
+    }
+   ],
+   "status": "back",
+   "tier": 1,
+   "flags": [],
+   "kill": [],
+   "keywords": [],
+   "pref": "wakayama",
+   "commune": "海南市",
+   "commune_tag": "nature",
+   "area": "kansai",
+   "所在地": "海南市藤白",
+   "間取り": "５ＤＫ",
+   "築年月": "1990年5月（築36年5ヶ月）",
+   "year_built": 1990,
+   "土地面積": "297.38m²",
+   "建物面積": "108.89m²",
+   "land_m2": 297.38,
+   "building_m2": 108.89,
+   "交通": "ＪＲ紀勢本線 「海南」駅 徒歩16分",
+   "station_m": 1280,
+   "ownership": "所有権",
+   "city_planning": "非線引区域",
+   "zoning": "１種住居",
+   "road": "西 公道",
+   "structure": "木造",
+   "floors": "2階建",
+   "condition": "空家",
+   "agency": "大協商事(株)",
+   "agency_tel": "073-483-2222",
+   "agency_card": "",
+   "published": "2026年8月17日",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991255184": {
@@ -6078,7 +6170,7 @@
    "agency_card": "",
    "published": "2026年9月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986700875": {
@@ -6127,7 +6219,7 @@
    "kanri_text": " 瑕疵保険 － 評価・証明書 － 備考 管理費６０",
    "published": "2026年3月25日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6980211557": {
@@ -6175,7 +6267,7 @@
    "agency_card": "",
    "published": "2023年10月13日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1165122726": {
@@ -6221,7 +6313,7 @@
    "agency_card": "",
    "published": "2026年7月15日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987056605": {
@@ -6267,7 +6359,7 @@
    "agency_card": "",
    "published": "2025年12月4日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1117226506": {
@@ -6313,7 +6405,7 @@
    "agency_card": "",
    "published": "2026年5月15日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992184685": {
@@ -6357,7 +6449,7 @@
    "agency_card": "",
    "published": "2026年9月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1076427799": {
@@ -6401,7 +6493,7 @@
    "agency_card": "",
    "published": "2026年1月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1043558990": {
@@ -6445,7 +6537,7 @@
    "agency_card": "",
    "published": "2026年9月5日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1076526999": {
@@ -6489,7 +6581,7 @@
    "agency_card": "",
    "published": "2026年8月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1043559390": {
@@ -6533,7 +6625,7 @@
    "agency_card": "",
    "published": "2026年9月13日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1176545114": {
@@ -6577,7 +6669,7 @@
    "agency_card": "",
    "published": "2026年7月31日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992116010": {
@@ -6623,7 +6715,7 @@
    "agency_card": "",
    "published": "2026年9月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992128239": {
@@ -6667,7 +6759,7 @@
    "agency_card": "",
    "published": "2026年9月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991009330": {
@@ -6711,7 +6803,7 @@
    "agency_card": "",
    "published": "2026年6月12日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1038179393": {
@@ -6755,7 +6847,7 @@
    "agency_card": "",
    "published": "2026年9月16日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991796570": {
@@ -6801,7 +6893,7 @@
    "agency_card": "",
    "published": "2026年8月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990629199": {
@@ -6850,7 +6942,7 @@
    "agency_card": "",
    "published": "2026年5月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991425307": {
@@ -6896,7 +6988,7 @@
    "agency_card": "",
    "published": "2026年7月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991085155": {
@@ -6942,7 +7034,7 @@
    "agency_card": "",
    "published": "2026年6月12日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990830467": {
@@ -6986,7 +7078,7 @@
    "agency_card": "",
    "published": "2026年9月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6985801213": {
@@ -7030,7 +7122,7 @@
    "agency_card": "",
    "published": "2026年9月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6985937151": {
@@ -7074,7 +7166,7 @@
    "agency_card": "",
    "published": "2025年4月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6989724496": {
@@ -7118,7 +7210,7 @@
    "agency_card": "",
    "published": "2026年3月2日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991666661": {
@@ -7162,7 +7254,7 @@
    "agency_card": "",
    "published": "2026年7月30日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990709712": {
@@ -7209,7 +7301,7 @@
    "agency_card": "",
    "published": "2026年6月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990368714": {
@@ -7253,7 +7345,7 @@
    "agency_card": "",
    "published": "2026年4月17日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986358907": {
@@ -7299,7 +7391,7 @@
    "agency_card": "",
    "published": "2026年3月15日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986744790": {
@@ -7345,7 +7437,7 @@
    "agency_card": "",
    "published": "2025年6月21日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1037084593": {
@@ -7389,7 +7481,7 @@
    "agency_card": "",
    "published": "2026年7月24日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6987032469": {
@@ -7433,7 +7525,7 @@
    "agency_card": "",
    "published": "2025年7月21日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991777423": {
@@ -7477,7 +7569,7 @@
    "agency_card": "",
    "published": "2026年8月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6984001419": {
@@ -7523,7 +7615,7 @@
    "agency_card": "",
    "published": "2026年8月19日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6988423743": {
@@ -7569,7 +7661,7 @@
    "agency_card": "",
    "published": "2025年11月17日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1079983689": {
@@ -7615,7 +7707,7 @@
    "agency_card": "",
    "published": "2024年8月13日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1035017993": {
@@ -7659,7 +7751,7 @@
    "agency_card": "",
    "published": "2026年4月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991591836": {
@@ -7708,7 +7800,7 @@
    "maintenance": "－",
    "published": "2026年9月7日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-19"
   },
   "1100681214": {
@@ -7752,7 +7844,7 @@
    "agency_card": "",
    "published": "2026年1月16日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1035019093": {
@@ -7798,7 +7890,7 @@
    "agency_card": "",
    "published": "2026年4月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991706283": {
@@ -7842,7 +7934,7 @@
    "agency_card": "",
    "published": "2026年8月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1081752289": {
@@ -7886,7 +7978,7 @@
    "agency_card": "",
    "published": "2024年10月28日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991950975": {
@@ -7930,7 +8022,7 @@
    "agency_card": "",
    "published": "2026年8月24日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6983750121": {
@@ -7976,7 +8068,7 @@
    "agency_card": "",
    "published": "2026年3月1日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1035018593": {
@@ -8020,7 +8112,7 @@
    "agency_card": "",
    "published": "2026年4月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6985860075": {
@@ -8064,7 +8156,7 @@
    "agency_card": "",
    "published": "2025年5月16日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6985916519": {
@@ -8113,7 +8205,7 @@
    "agency_card": "",
    "published": "2025年4月10日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1035096593": {
@@ -8157,7 +8249,7 @@
    "agency_card": "",
    "published": "2026年4月16日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6988639447": {
@@ -8201,7 +8293,7 @@
    "agency_card": "",
    "published": "2025年12月4日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6986685583": {
@@ -8247,7 +8339,7 @@
    "agency_card": "",
    "published": "2026年1月8日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6976384948": {
@@ -8293,7 +8385,7 @@
    "agency_card": "",
    "published": "2026年3月1日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1103193214": {
@@ -8337,7 +8429,7 @@
    "agency_card": "",
    "published": "2026年4月2日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1035018993": {
@@ -8383,7 +8475,7 @@
    "agency_card": "",
    "published": "2026年4月11日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6989309351": {
@@ -8429,7 +8521,7 @@
    "agency_card": "",
    "published": "2026年1月31日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1151298031": {
@@ -8475,7 +8567,7 @@
    "agency_card": "",
    "published": "2026年9月5日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991040912": {
@@ -8519,7 +8611,7 @@
    "agency_card": "",
    "published": "2026年6月9日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6982832787": {
@@ -8569,7 +8661,7 @@
    "kanri_text": "疵保険 － 評価・証明書 － 備考 別荘管理費 ４６",
    "published": "2024年7月15日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6992022234": {
@@ -8615,7 +8707,7 @@
    "agency_card": "",
    "published": "2026年9月6日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1035071793": {
@@ -8659,7 +8751,7 @@
    "agency_card": "",
    "published": "2026年4月13日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6991795727": {
@@ -8705,7 +8797,7 @@
    "agency_card": "",
    "published": "2026年8月17日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "6990850064": {
@@ -8751,7 +8843,7 @@
    "agency_card": "",
    "published": "2026年8月21日",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-16"
   },
   "1038198693": {
@@ -8798,7 +8890,7 @@
    "maintenance": "－",
    "published": "2026年9月18日",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-18"
   },
   "6992239899": {
@@ -8849,7 +8941,7 @@
    "maintenance": "－",
    "published": "2026年9月17日",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-18"
   },
   "6991621493": {
@@ -8894,7 +8986,7 @@
    "maintenance": "－",
    "published": "2026年9月17日",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-18"
   },
   "1163560931": {
@@ -8939,7 +9031,7 @@
    "maintenance": "－",
    "published": "2026年9月17日",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-18"
   },
   "6990973601": {
@@ -8952,7 +9044,7 @@
      "price_yen": 4500000
     }
    ],
-   "status": "new",
+   "status": "active",
    "tier": 1,
    "flags": [],
    "kill": [],
@@ -8986,7 +9078,7 @@
    "maintenance": "－",
    "published": "2026年9月18日",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-19"
   },
   "1175910114": {
@@ -8999,7 +9091,7 @@
      "price_yen": 6800000
     }
    ],
-   "status": "new",
+   "status": "active",
    "tier": 1,
    "flags": [
     "kanri"
@@ -9036,7 +9128,7 @@
    "maintenance": "(年額)自治会費：6,000円/年",
    "published": "2026年9月18日",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-19"
   },
   "6988997748": {
@@ -9049,7 +9141,7 @@
      "price_yen": 3900000
     }
    ],
-   "status": "new",
+   "status": "active",
    "tier": 1,
    "flags": [
     "kanri"
@@ -9087,7 +9179,7 @@
    "maintenance": "－",
    "published": "2026年9月18日",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-19"
   },
   "6991169263": {
@@ -9100,7 +9192,7 @@
      "price_yen": 4000000
     }
    ],
-   "status": "new",
+   "status": "active",
    "tier": 1,
    "flags": [],
    "kill": [],
@@ -9135,7 +9227,7 @@
    "maintenance": "－",
    "published": "2026年9月18日",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-19"
   },
   "6977517016": {
@@ -9148,7 +9240,7 @@
      "price_yen": 4800000
     }
    ],
-   "status": "new",
+   "status": "active",
    "tier": 1,
    "flags": [],
    "kill": [],
@@ -9182,7 +9274,7 @@
    "maintenance": "－",
    "published": "2026年9月18日",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-19"
   },
   "6988116423": {
@@ -9195,7 +9287,7 @@
      "price_yen": 7000000
     }
    ],
-   "status": "new",
+   "status": "active",
    "tier": 1,
    "flags": [],
    "kill": [],
@@ -9227,7 +9319,7 @@
    "maintenance": "－",
    "published": "2026年9月18日",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "fiche_fetched": "2026-09-19"
   }
  }
